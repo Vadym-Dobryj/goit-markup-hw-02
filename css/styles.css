@@ -135,6 +135,11 @@ ul {
   text-align: center;
   cursor: pointer;
 }
+.filtr-button:hover,
+.filtr-button:focus{
+  color: var(--primery-white-color);
+  background-color: var(--accent-color) ; 
+}
 .title-portfolio {
   color: var(--secondary-text-color);
   font-weight: 700;
