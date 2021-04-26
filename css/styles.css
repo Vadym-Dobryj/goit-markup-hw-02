@@ -14,11 +14,17 @@ body {
   background-color: white;
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
+  font-weight: normal;
   letter-spacing: 0.03em;
-  font-style: normal;
+  font-size: 14px;
+  line-height:normal; 
+  
 }
 ul {
   list-style: none;
+}
+a {
+  text-decoration: none;
 }
 
 .logo {
@@ -62,8 +68,13 @@ ul {
 .contact:focus {
   color: var(--accent-color);
 }
+
 /* Герой */
+.hero{
+  background: #2F303A;
+}
 .hero-title {
+  color: var(--primery-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -105,6 +116,9 @@ ul {
   text-align: center;
 }
 /* Команда */
+.team{
+  background: #F5F4FA;
+}
 .team-title {
   color: var(--secondary-text-color);
   font-weight: 700;
@@ -120,11 +134,30 @@ ul {
   /* text-align: center; */
 }
 .position-player {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.2;
   /* text-align: center; */
 }
+/* Футер */
+.cellar{
+  background: #2F303A;
+}
+.cellar-list{
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 1,7
+} 
+
+.logo-studio{
+  color:var(--primery-white-color);
+}
+.cellar-adress{
+  color:var(--primery-white-color);
+}
+.cellar-contact{
+  color: rgba(255, 255, 255, 0.6);
+}
+
 
 /* Портфолио css */
 /* Кнопки фильтра */
@@ -149,7 +182,7 @@ ul {
 }
 .operation-portfolio {
   color: var(--primary-text-color);
-  font-weight: normal;
+  font-size: 16px;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
